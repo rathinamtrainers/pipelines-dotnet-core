@@ -12,6 +12,7 @@ namespace pipelines_dotnet_core.Controllers
     {
         public IActionResult Index()
         {
+            string company = "Rathinam Trainers";
             return View();
         }
 
