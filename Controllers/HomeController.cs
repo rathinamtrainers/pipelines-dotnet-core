@@ -12,6 +12,7 @@ namespace pipelines_dotnet_core.Controllers
     {
         public IActionResult Index()
         {
+            int a = 10;
             return View();
         }
 
